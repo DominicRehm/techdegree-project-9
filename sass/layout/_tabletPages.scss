@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+    
+
+    .aboutCards {
+        margin-top: 80px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .aboutCard {
+        width: 40%;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .projectCard {
+        height: 800px;
+        font-size: 1.6em;
+        margin-bottom: 45px;
+
+        & img {
+            width: 80%;
+        }
+    }
+}

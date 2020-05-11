@@ -1,0 +1,50 @@
+@media (min-width: 1024px) {
+    .desktopNav {
+        display: flex;
+        justify-content: flex-start;
+        height: 80px;
+        background-color: $secondaryBackground;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .desktopNavList {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-transform: uppercase;
+        padding-right: 10px;
+        border-right: 2px solid $contrastFontColor;
+
+        & a {
+            padding: 10px;
+            font-size: 1.8em;
+            font-weight: 500;
+            color: $lightFontColor;
+            margin-left: 20px;
+            transition: color .2s;
+        }
+
+        & a:hover {
+            color: $contrastFontColor;
+        }
+    }
+
+    .desktopContact {
+        display: flex;
+        align-items: center;
+        font-size: 1.8em;
+        font-weight: 500;
+        color: $lightFontColor;
+        text-transform: uppercase;
+        margin-left: 20px;
+
+        & img {
+            color: $lightFontColor;
+            padding-top: 8px;
+            margin-left: 10px;
+            width: 40px;
+        }
+    }
+
+}

@@ -1,0 +1,118 @@
+// 320px Landingpage
+
+.desktopNav {
+    display: none;
+}
+
+.mobileNav {
+    position: fixed;
+    height: 0%;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    transition: 0.7s;
+}
+
+.mobileCloseBtn {
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    font-size: 2em;
+    color: $darkFontColor;
+    cursor: pointer;
+}
+
+.firstLayer {
+    height: 100%;
+    width: 100%;
+    background-color: $contrastBackground;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+}
+
+.secondLayer {
+    height: 100%;
+    background-color: $primaryBackground;
+    -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 87%);
+    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 87%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileNavList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid $contrastFontColor;
+    margin-bottom: 30px;
+}
+
+.mobileNavList li {
+    margin-bottom: 40px;
+}
+
+.mobileNavList a {
+    padding: 15px 40px;
+    color: $darkFontColor;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & .contactHeading {
+        font-size: 2.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $darkFontColor;
+    }
+
+    & img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+// 320px Pages
+
+.firstLayerDark {
+    height: 100%;
+    width: 100%;
+    background-color: $contrastBackground;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+}
+
+.mobileCloseBtnDark {
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    font-size: 2em;
+    color: $darkFontColor;
+    cursor: pointer;
+}
+
+.secondLayerDark {
+    height: 100%;
+    background-color: $primaryBackground;
+    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    
+}

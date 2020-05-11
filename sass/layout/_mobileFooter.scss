@@ -1,0 +1,47 @@
+// 320px Landingpage
+
+.mobileFooter {
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.mobileNavBtn {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: $contrastFontColor;
+    background-color: $cardBackground;
+    padding: 7px 20px;
+    border-radius: 15px;
+    transform: translateX(0px);
+    opacity: 1;
+    transition: transform .7s ease-out, opacity .7s ease-out;;
+}
+
+// 320px Pages
+
+.mobileFooterRight {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobileNavBtnRight {
+    height: 70px;
+    width: 70px;
+}
+
+@media (min-width: 1024px) {
+    .mobileFooter {
+        display: none;
+    }
+
+    .mobileFooterRight {
+        display: none;
+    }
+}
