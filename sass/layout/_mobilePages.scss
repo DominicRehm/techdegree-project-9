@@ -40,7 +40,7 @@
 }
 
 
-// 320px About
+// About
 
 .mainPages {
     position: relative;
@@ -97,7 +97,7 @@
 
 .aboutCard {
     width: 90%;
-    height: 300px;
+    height: 370px;
     padding: 10px 10px 0px 10px;
     margin-bottom: 40px;
     background-color: $cardBackground;
@@ -108,6 +108,12 @@
     -moz-box-shadow: 0px 3px 21px -4px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 21px -4px rgba(0,0,0,0.75);
 
+    & img {
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
     & h2 {
         text-align: center;
         color: $contrastFontColor;
@@ -116,20 +122,9 @@
         margin-bottom: 15px;
     }
 
-    & .aboutInfo {
-        margin-bottom: 10px;
-    }
-
     & span {
         color: $contrastFontColor;
         text-transform: uppercase;
-    }
-
-    & ul {
-        color: $secContrastFontColor;
-        font-size: 1.8em;
-        font-weight: bold;
-        text-align: center;
     }
 
     & p {
@@ -137,20 +132,9 @@
         font-size: 1.2em;
         text-align: center;
     }
-
-    & a {
-        margin-top: 25px;
-        display: block;
-        background-color: $secondaryBackground;
-        padding: 10px;
-        color: $lightFontColor;
-        text-transform: uppercase;
-        border-radius: 5px;
-    }
 }
 
-
-// 320px Projects
+// Projects
 
 .projectContent {
     width: 100%;
@@ -189,7 +173,7 @@
     margin: 0 auto;
     margin-bottom: 25px;
     padding: 10px;
-    height: 470px;
+    height: auto;
     -webkit-box-shadow: 0px 3px 21px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 3px 21px -4px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 21px -4px rgba(0,0,0,0.75);
@@ -224,6 +208,7 @@
         display: flex;
         justify-content: space-around;
         margin-bottom: 15px;
+        margin-top: 20px;
         width: 98%;
 
         & a {

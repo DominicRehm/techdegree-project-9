@@ -13,7 +13,7 @@
         justify-content: flex-start;
         align-items: center;
         text-transform: uppercase;
-        padding-right: 10px;
+        padding-right: 20px;
         border-right: 2px solid $contrastFontColor;
 
         & a {
@@ -21,7 +21,7 @@
             font-size: 1.8em;
             font-weight: 500;
             color: $lightFontColor;
-            margin-left: 20px;
+            margin-left: 30px;
             transition: color .2s;
         }
 
@@ -37,12 +37,12 @@
         font-weight: 500;
         color: $lightFontColor;
         text-transform: uppercase;
-        margin-left: 20px;
+        margin-left: 30px;
 
         & img {
             color: $lightFontColor;
-            padding-top: 8px;
-            margin-left: 10px;
+            padding-top: 9px;
+            margin-left: 25px;
             width: 40px;
         }
     }

@@ -161,7 +161,7 @@ ul {
     justify-content: flex-start;
     align-items: center;
     text-transform: uppercase;
-    padding-right: 10px;
+    padding-right: 20px;
     border-right: 2px solid #F9A828;
   }
   /* line 19, ../../Desktop/Portfolio/sass/layout/_desktopNav.scss */
@@ -170,7 +170,7 @@ ul {
     font-size: 1.8em;
     font-weight: 500;
     color: #ECECEB;
-    margin-left: 20px;
+    margin-left: 30px;
     transition: color .2s;
   }
   /* line 28, ../../Desktop/Portfolio/sass/layout/_desktopNav.scss */
@@ -185,13 +185,13 @@ ul {
     font-weight: 500;
     color: #ECECEB;
     text-transform: uppercase;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   /* line 42, ../../Desktop/Portfolio/sass/layout/_desktopNav.scss */
   .desktopContact img {
     color: #ECECEB;
-    padding-top: 8px;
-    margin-left: 10px;
+    padding-top: 9px;
+    margin-left: 25px;
     width: 40px;
   }
 }
@@ -303,7 +303,7 @@ ul {
 /* line 98, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .aboutCard {
   width: 90%;
-  height: 300px;
+  height: 370px;
   padding: 10px 10px 0px 10px;
   margin-bottom: 40px;
   background-color: #222831;
@@ -316,6 +316,13 @@ ul {
 }
 
 /* line 111, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+.aboutCard img {
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* line 117, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .aboutCard h2 {
   text-align: center;
   color: #F9A828;
@@ -324,44 +331,20 @@ ul {
   margin-bottom: 15px;
 }
 
-/* line 119, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
-.aboutCard .aboutInfo {
-  margin-bottom: 10px;
-}
-
-/* line 123, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 125, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .aboutCard span {
   color: #F9A828;
   text-transform: uppercase;
 }
 
-/* line 128, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
-.aboutCard ul {
-  color: #07617D;
-  font-size: 1.8em;
-  font-weight: bold;
-  text-align: center;
-}
-
-/* line 135, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 130, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .aboutCard p {
   color: #ECECEB;
   font-size: 1.2em;
   text-align: center;
 }
 
-/* line 141, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
-.aboutCard a {
-  margin-top: 25px;
-  display: block;
-  background-color: #2E383F;
-  padding: 10px;
-  color: #ECECEB;
-  text-transform: uppercase;
-  border-radius: 5px;
-}
-
-/* line 155, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 139, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectContent {
   width: 100%;
   display: flex;
@@ -370,12 +353,12 @@ ul {
   z-index: 1;
 }
 
-/* line 163, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 147, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectHeading {
   width: 100%;
 }
 
-/* line 167, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 151, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectHeading h2 {
   font-size: 4em;
   text-transform: uppercase;
@@ -386,12 +369,12 @@ ul {
   border-bottom: 3px solid #F9A828;
 }
 
-/* line 177, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 161, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projects {
   margin-top: 65px;
 }
 
-/* line 181, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 165, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectCard {
   display: flex;
   flex-direction: column;
@@ -403,13 +386,13 @@ ul {
   margin: 0 auto;
   margin-bottom: 25px;
   padding: 10px;
-  height: 470px;
+  height: auto;
   -webkit-box-shadow: 0px 3px 21px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 3px 21px -4px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 3px 21px -4px rgba(0, 0, 0, 0.75);
 }
 
-/* line 197, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 181, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectCard h3 {
   color: #F9A828;
   text-transform: uppercase;
@@ -419,35 +402,36 @@ ul {
   font-size: 1.3em;
 }
 
-/* line 206, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 190, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectCard .langauges {
   text-transform: uppercase;
   color: #F9A828;
   margin-bottom: 10px;
 }
 
-/* line 212, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 196, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectCard .langauges span {
   text-transform: none;
   color: #ECECEB;
 }
 
-/* line 217, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 201, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectCard img {
   width: 90%;
   height: auto;
   margin-bottom: 10px;
 }
 
-/* line 223, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 207, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectCard .projectButtons {
   display: flex;
   justify-content: space-around;
   margin-bottom: 15px;
+  margin-top: 20px;
   width: 98%;
 }
 
-/* line 229, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 214, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectCard .projectButtons a {
   color: #ECECEB;
   text-transform: uppercase;
@@ -458,7 +442,7 @@ ul {
   transition: color .2s;
 }
 
-/* line 239, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
+/* line 224, ../../Desktop/Portfolio/sass/layout/_mobilePages.scss */
 .projectCard .projectButtons a:hover {
   color: #F9A828;
 }
@@ -510,24 +494,26 @@ ul {
     margin: 0 auto;
     margin-top: 70px;
   }
-  /* line 23, ../../Desktop/Portfolio/sass/layout/_desktopPages.scss */
-  .aboutCard {
+  /* line 22, ../../Desktop/Portfolio/sass/layout/_desktopPages.scss */
+  .aboutCards .aboutCard {
     width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  /* line 27, ../../Desktop/Portfolio/sass/layout/_desktopPages.scss */
+  /* line 29, ../../Desktop/Portfolio/sass/layout/_desktopPages.scss */
   .projects {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
   }
-  /* line 33, ../../Desktop/Portfolio/sass/layout/_desktopPages.scss */
+  /* line 35, ../../Desktop/Portfolio/sass/layout/_desktopPages.scss */
   .projectCard {
     height: 700px;
     font-size: 1.5em;
     margin-bottom: 45px;
     width: 40%;
   }
-  /* line 39, ../../Desktop/Portfolio/sass/layout/_desktopPages.scss */
+  /* line 41, ../../Desktop/Portfolio/sass/layout/_desktopPages.scss */
   .projectCard img {
     width: 70%;
   }
